@@ -18,8 +18,8 @@ h2 {
 }
 
 div#zentai {
-	display: flex;
-	flex-direction: row;
+	display: grid;
+	grid-template-columns: 2fr 2fr;
 	width: 1024px;
 }
 
