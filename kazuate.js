@@ -22,7 +22,7 @@ function hantei() {
   // kotae と yoso が一致するかどうか調べて結果を出力
   // 課題3-1における出力先はコンソール
   for(kaisu = 1; kaisu <= 4; kaisu++){
-    console.log(kaisu + "回目の予想:" + hantei());
+    console.log(kaisu + "回目の予想:");
     if(yoso === kotae && kaisu === 1) {
       console.log("正解です. おめでとう!");
     }
