@@ -23,7 +23,7 @@ function hantei() {
   // 課題3-1における出力先はコンソール
   for(kaisu = 1; kaisu <= 4; kaisu++){
     console.log(kaisu + "回目の予想:");
-    if(yoso === kotae && kaisu === 1) {
+    if(kaisu < 4 && kaisu >= 1 && yoso === kotae) {
       console.log("正解です. おめでとう!");
     }
     else if (kaisu <= 2 && yoso > kotae){
@@ -35,8 +35,7 @@ function hantei() {
     else if (kaisu ===3 && yoso==! kotae){
       console.log("まちがい.残念でした答えは" + kotae +"です.");
     }
-    else if(kaisu < 4 && kaisu > 1 && yoso === kotae){
-        console.log("正解です. おめでとう!");
-    }
+    else if(kaisu ===4)
+      console.log("答えは "+ kotae + "でした．すでにゲームは終わっています");
   }
 }
