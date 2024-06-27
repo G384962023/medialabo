@@ -29,7 +29,7 @@ let img = document.createElement('img');
 
 img.setAttribute('src' , 'taro.png');
 
-let photo =document.createElement('photo');
+let photo =document.createElement('p');
 
 photo.insertAdjacentElement('beforeend', img);
 
@@ -40,7 +40,7 @@ let img2 = document.createElement('img');
 
 img2.setAttribute('src' , 'jiro.png');
 
-let photo2 =document.createElement('photo');
+let photo2 =document.createElement('p');
 
 photo2.insertAdjacentElement('beforeend', img2);
 
@@ -49,11 +49,11 @@ div2.insertAdjacentElement('beforeend', photo2);
 
 let img3 = document.createElement('img');
 
-img3.setAttribute('src' , 'taro.png');
+img3.setAttribute('src' , 'hanako.png');
 
-let photo3 =document.createElement('photo');
+let photo3 =document.createElement('p');
 
-photo.insertAdjacentElement('beforeend', img3);
+photo3.insertAdjacentElement('beforeend', img3);
 
 let div3 = document.querySelector('div#phototable');
 div3.insertAdjacentElement('beforeend', photo3);
