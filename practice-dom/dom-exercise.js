@@ -33,6 +33,7 @@ let photo =document.createElement('photo');
 
 photo.insertAdjacentElement('beforeend', img);
 
+let div = document.querySelector('div#phototable');
 div.insertAdjacentElement('beforeend', photo);
 
 // 練習4-4 箇条書き削除プログラム
