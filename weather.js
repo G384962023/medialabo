@@ -46,5 +46,5 @@ let data = {
 };
 
 ////////// 課題3-2 ここからプログラムを書こう
-
-console.log(data.timezone);
+let result = document.querySelector('div#result');
+result.textContent = result1;
