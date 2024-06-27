@@ -33,9 +33,30 @@ let photo =document.createElement('photo');
 
 photo.insertAdjacentElement('beforeend', img);
 
+let div = document.querySelector('div#phototable');
 div.insertAdjacentElement('beforeend', photo);
 
+let img2 = document.createElement('img');
 
+img2.setAttribute('src' , 'jiro.png');
+
+let photo2 =document.createElement('photo');
+
+photo2.insertAdjacentElement('beforeend', img2);
+
+let div2 = document.querySelector('div#phototable');
+div2.insertAdjacentElement('beforeend', photo2);
+
+let img3 = document.createElement('img');
+
+img3.setAttribute('src' , 'taro.png');
+
+let photo3 =document.createElement('photo');
+
+photo.insertAdjacentElement('beforeend', img3);
+
+let div3 = document.querySelector('div#phototable');
+div3.insertAdjacentElement('beforeend', photo3);
 
 // 練習4-4 箇条書き削除プログラム
 
