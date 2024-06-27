@@ -19,6 +19,10 @@ console.log(p1.textContent);
 
 let p2 = document.createElement('p');
 p2.textContent = '写真表と都市の緯度軽度のページです';
+
+p2.style.textemphasis= 'sesame green'
+
+
 console.log(p2.textContent);
 // 練習4-3 写真表作成プログラム
 
