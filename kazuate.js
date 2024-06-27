@@ -1,7 +1,7 @@
 // 答え
 let kotae = Math.floor(Math.random()*10) + 1;
 console.log('答え（デバッグ用）: ' + kotae);
-
+let result;
 // 入力回数（予想回数）
 let kaisu = 0;
 
@@ -38,4 +38,10 @@ function hantei() {
       console.log("まちがい. 答えはもっと大きいですよ");
     }
   }
+  let kaisu1 = document.querySelector('span#kaisu');
+  kaisu1.textContent = kaisu;
+  let anser = document.querySelector('span#answer');
+  anser.textContent = n;
+  let result1 = document.querySelector('p#result');
+  result1.textContent = result;
 }
