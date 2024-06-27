@@ -60,7 +60,7 @@ div3.insertAdjacentElement('beforeend', photo3);
 
 // 練習4-4 箇条書き削除プログラム
 
-let w = document.querySelector('li#location');
+let w = document.querySelectorAll('li#location');
 for(let w1 of w){
 	w1.remove();
 }
