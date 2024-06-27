@@ -69,6 +69,6 @@ for(let w1 of w){
 let ul = document.querySelector('ul#location');
 for(let d of data){
 	let li = document.createElement('li');
-	li.textContent = d.name + "...緯度:" + d.lat + ",軽度:" + d.lng;
+	li.textContent = d.name + "...緯度:" + d.lat + ", 軽度:" + d.lng;
 	ul.insertAdjacentElement('beforeend' , li);
 }
