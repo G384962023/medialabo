@@ -62,7 +62,7 @@ div3.insertAdjacentElement('beforeend', photo3);
 
 let w = document.querySelector('ul#location');
 for(let w1 of w){
-	w.remove();
+	w1.remove();
 }
 // 練習4-5 箇条書き追加プログラム
 
