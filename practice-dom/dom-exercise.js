@@ -61,7 +61,8 @@ div3.insertAdjacentElement('beforeend', photo3);
 // 練習4-4 箇条書き削除プログラム
 
 let w = document.querySelector('ul#location');
-for(let w1 of w)
+for(let w1 of w){
 	w.remove();
+}
 // 練習4-5 箇条書き追加プログラム
 
