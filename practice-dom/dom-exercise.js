@@ -17,9 +17,9 @@ let data = [
 let p1 = document.querySelector('h2#ex42');
 console.log(p1.textContent);
 
-let p2 = documet.querySelector('p#text-emhasis: sesame green;');
-p2.style.color='sesame green';
-
+let p2 = document.creaateElement('p');
+p2.textContent = '写真表と都市の緯度軽度のページです';
+console.log(p2.textContent);
 // 練習4-3 写真表作成プログラム
 
 
