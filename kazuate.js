@@ -26,16 +26,16 @@ function hantei() {
   // 課題3-1における出力先はコンソール
   console.log(kaisu + '回目の予想: ' + yoso)
   if(kaisu >= 4){
-    console.log("答えは "+ kotae + "でした．すでにゲームは終わっています");
+    result = "答えは "+ kotae + "でした．すでにゲームは終わっています";
   } else {
     if(n === kotae){
-      console.log("正解です. おめでとう!");
+      result = "正解です. おめでとう!";
     }
     else if (n > kotae){
-      console.log("まちがい. 答えはもっと小さいですよ");
+      result ="まちがい. 答えはもっと小さいですよ";
     }
     else {
-      console.log("まちがい. 答えはもっと大きいですよ");
+      result = "まちがい. 答えはもっと大きいですよ";
     }
   }
   let kaisu1 = document.querySelector('span#kaisu');
