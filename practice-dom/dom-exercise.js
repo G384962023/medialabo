@@ -14,7 +14,8 @@ let data = [
 //// 注意: 以上は編集しないこと!
 
 // 練習4-2 メッセージ追加プログラム
-
+let p1 = document.querySelector('h2#ex42');
+console.log(p1.textContent);
 
 // 練習4-3 写真表作成プログラム
 
