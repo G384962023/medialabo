@@ -21,7 +21,7 @@ p2.textContent = '写真表と都市の緯度軽度のページです';
 
 p2.style.textemphasis= 'sesame green';
 
-p1.insertAdjacentElement('afterend', p);
+p1.insertAdjacentElement('afterend', p2);
 // 練習4-3 写真表作成プログラム
 
 
