@@ -25,6 +25,15 @@ p2.style.textEmphasis= 'sesame green';
 p1.insertAdjacentElement('afterend', p2);
 // 練習4-3 写真表作成プログラム
 
+let img = document.createElement('img');
+
+img.setAttribute('src' , 'taro.png');
+
+let photo =document.createElement('photo');
+
+photo.insertAdjacentElement('beforeend', img);
+
+div.insertAdjacentElement('beforeend', photo);
 
 // 練習4-4 箇条書き削除プログラム
 
