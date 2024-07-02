@@ -48,9 +48,8 @@ let data = {
 ////////// 課題3-2 ここからプログラムを書こう
 
 let div = document.querySelector('div#result');
-let a = document.createElement('a');
-a.textContent = data.coord.lon;
-div.insertAdjacentElement('afterend', a);
-let b = document.createElement('b');
-b.textContent = data.coord.lat;
-div.insertAdjacentElement('afterend', b);
+for(let d of data){
+  let a = document.createElement('a');
+  a.textContent = data.coord.lon;
+  div.insertAdjacentElement('afterend', a);
+}
