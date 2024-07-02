@@ -48,8 +48,8 @@ let data = {
 ////////// 課題3-2 ここからプログラムを書こう
 
 let div = document.querySelector('div#result');
-for(let d of data){
+for(let d of data.coord){
   let a = document.createElement('a');
-  a.textContent = data.coord.lon;
+  a.textContent = "緯度:" + data.coord.lon;
   div.insertAdjacentElement('afterend', a);
 }
