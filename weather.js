@@ -50,7 +50,7 @@ let data = {
 let div = document.querySelector('div#result');
 let a = document.createElement('a');
 a.textContent = data.coord.lon;
+div.insertAdjacentElement('beforeend', a);
 let b = document.createElement('b');
 b.textContent = data.coord.lat;
-div.insertAdjacentElement('beforeend', a);
 div.insertAdjacentElement('beforeend', b);
