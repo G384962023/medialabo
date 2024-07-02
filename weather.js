@@ -48,5 +48,5 @@ let data = {
 ////////// 課題3-2 ここからプログラムを書こう
 let div = document.querySelector('div#result');
 let p = document.createElement('p');
-p.textContent = (data.coord.lon);
-div.insertAdjacentElement('afterend' , p);
+p.textContent = 'unnko';
+div.insertAdjacentElement('afterend',p);
