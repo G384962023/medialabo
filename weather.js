@@ -53,5 +53,5 @@ console.log(data.main.temp_min);
 console.log(data.main.temp_max);
 console.log(data.main.humidity);
 console.log(data.wind.speed);
-console.log(wind.deg);
-console.log(name);
+console.log(data.wind.deg);
+console.log(data.name);
