@@ -46,4 +46,4 @@ let data = {
 };
 
 ////////// 課題3-2 ここからプログラムを書こう
-console.log(data);
+console.log(data.coord.lon);
