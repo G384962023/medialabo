@@ -51,8 +51,8 @@ let div = document.querySelector('div#result');
 
 let a = document.createElement('a');
 a.textContent = "緯度:"+data.coord.lon;
-div.insertAdjacentElement('afterend', a);
+div.insertAdjacentElement('beforeend', a);
 
 let b = document.createElement('b');
 b.textContent = "経度" + data.coord.lat;
-div.insertAdjacentElement('afterend', b);
+div.insertAdjacentElement('beforeend', b);
