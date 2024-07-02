@@ -50,3 +50,4 @@ let div = document.querySelector('div#result');
 let p = document.createElement('p');
 p.textContent = data.coord.lon;
 p.textContent = data.coord.lat;
+div.insertAdjacentElement('beforeend', p);
