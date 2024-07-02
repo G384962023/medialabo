@@ -46,7 +46,7 @@ let data = {
 };
 
 ////////// 課題3-2 ここからプログラムを書こう
-let fao = document.querySelector('div#"result"');
+let fao = document.querySelector('div#result');
 let p = document.createElement('p');
 p.textContent = data.coord.lon;
 fao.insertAdjacentElement('afterend',p);
