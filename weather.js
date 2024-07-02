@@ -46,10 +46,9 @@ let data = {
 };
 
 ////////// 課題3-2 ここからプログラムを書こう
-document.addEventListener('DOMContentLoaded', function() {
-  let div = document.querySelector('div#result');
-  let p = document.createElement('p');
-  p.textContent = data.coord.lon;
-  p.textContent = data.coord.lat;
-  div.insertAdjacentElement('beforeend', p);
-});
+
+let div = document.querySelector('div#result');
+let p = document.createElement('p');
+p.textContent = data.coord.lon;
+p.textContent = data.coord.lat;
+div.insertAdjacentElement('beforeend', p);
