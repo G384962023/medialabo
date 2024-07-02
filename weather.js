@@ -49,4 +49,4 @@ let data = {
 let div = document.querySelector('div#result');
 let p = document.createElement('p');
 p.textContent = data.coord.lon;
-div.insertAdjacentElement('beforeend',p);
+div.insertAdjacentElement('afterend',p);
