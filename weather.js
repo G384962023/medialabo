@@ -47,10 +47,34 @@ let data = {
 
 ////////// 課題3-2 ここからプログラムを書こう
 
-let div = document.querySelector('div#result');
-let a = document.createElement('a');
-a.textContent = "緯度:"+data.coord.lon;
-div.insertAdjacentElement('beforeend', a);
 
-a.textContent = "経度" + data.coord.lat;
-div.insertAdjacentElement('beforeend', a);
+/*console.log(data.coord.lon);
+console.log(data.coord.lat);
+console.log(data.weather[0].description);
+console.log(data.main.temp_min);
+console.log(data.main.temp_max);
+console.log(data.main.humidity);
+console.log(data.wind.speed);
+console.log(data.wind.deg);
+console.log(data.name);
+*/
+
+let div = document.querySelector('div#result');
+let h1 = document.createElement('h1');
+h1.textContent = "世界の天気";
+h1.style.fontSize='60px';
+h1.style.borderBottom = 'double 5px # FFC778';
+div.insertAdjacentElement('beforeend', h1);
+let h2 = document.createElement('h2');
+let li1 = document.createElement('li');
+let li2 = document.createElement('li');
+let li3 = document.createElement('li');
+let li4 = document.createElement('li');
+let li5 = document.createElement('li');
+let li6 = document.createElement('li');
+let li7 = document.createElement('li');
+let li8 = document.createElement('li');
+let li9 = document.createElement('li');
+
+h2.textContent = "検索結果1件";
+div.insertAdjacentElement('beforeend', h2);
