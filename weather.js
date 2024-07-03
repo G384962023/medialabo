@@ -86,7 +86,7 @@ li3.textContent = "天気:" + data.weather[0].description;
 div.insertAdjacentElement('beforeend', li3);
 li4.textContent = "最低気温:" + data.main.temp_min;
 div.insertAdjacentElement('beforeend', li4);
-li5.textContent = "最高気温:" + data.main_temp_max;
+li5.textContent = "最高気温:" + data.main.temp_max;
 div.insertAdjacentElement('beforeend', li5);
 li6.textContent = "湿度:" + data.main.humidity;
 div.insertAdjacentElement('beforeend', li6);
