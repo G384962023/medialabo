@@ -78,3 +78,5 @@ let li9 = document.createElement('li');
 
 h2.textContent = "検索結果1件";
 div.insertAdjacentElement('beforeend', h2);
+li1.textContent = "緯度:" + data.coord.lon;
+div.insertAdjacentElement('beforeend', li1);
