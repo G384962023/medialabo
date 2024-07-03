@@ -82,7 +82,7 @@ li1.textContent = "緯度:" + data.coord.lon;
 div.insertAdjacentElement('beforeend', li1);
 li2.textContent = "経度:" + data.coord.lat;
 div.insertAdjacentElement('beforeend', li2);
-li3.textContent = "天気:" + data.weather[0].description.lon;
+li3.textContent = "天気:" + data.weather[0].description;
 div.insertAdjacentElement('beforeend', li3);
 li4.textContent = "最低気温:" + data.main.temp_min;
 div.insertAdjacentElement('beforeend', li4);
