@@ -20,6 +20,8 @@ function changeH1ColorRed() {
 
 function changeBackgroundColorRandom() {
 	// ランダムな RGB の色
+	let b2 = document.querySelector('button#random');
+	b2.addEventListener('click' , changeBackgroundColorRando);
 	let r = Math.floor(Math.random() * 256);
 	let g = Math.floor(Math.random() * 256);
 	let b = Math.floor(Math.random() * 256);
