@@ -8,15 +8,15 @@ c2.addEventListener('dblclick', changeColor);
 
 // cell3: マウスポインタが上に来ると色が変わる
 let c3 = document.querySelector('#cell3');
-c3.addEventListener('click', changeColor);
+c3.addEventListener('mouseover', changeColor);
 
 // cell4: マウスポインタをここで動かすと色が変わる
 let c4 = document.querySelector('#cell4');
-c4.addEventListener('click', changeColor);
+c4.addEventListener('mousemove', changeColor);
 
 // cell5: マウスポインタがここから離れると色が変わる
 let c5 = document.querySelector('#cell5');
-c5.addEventListener('click', changeColor);
+c5.addEventListener('mouseleave', changeColor);
 
 // cell6: フォーカスすると色が変わる
 let c6 = document.querySelector('#cell6');
