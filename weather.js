@@ -76,6 +76,15 @@ let li7 = document.createElement('li');
 let li8 = document.createElement('li');
 let li9 = document.createElement('li');
 
+let b = document.querySelector('#print');
+b.addEventListener('click' , sendRequest);
+
+function sendRequest() {
+  let s = document.querySelector('#print');
+  let idx = s.selectedIndex;
+  let os = s.querySelectorAll('option');
+}
+
 h2.textContent = "検索結果1件";
 div.insertAdjacentElement('beforeend', h2);
 li1.textContent = "緯度:" + data.coord.lon;
@@ -96,4 +105,3 @@ li8.textContent = "風向:" + data.wind.deg;
 div.insertAdjacentElement('beforeend', li8);
 li9.textContent = "都市名:" + data.name;
 div.insertAdjacentElement('beforeend', li9);
-
