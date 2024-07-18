@@ -69,7 +69,7 @@ function print(data){
 let div = document.querySelector('div#result');
 let h1 = document.createElement('h1');
 h1.textContent = "世界の天気";
-h1.style.fontSize='20px';
+h1.style.fontSize='40px';
 h1.style.borderBottom = 'double 5px # FFC778';
 div.insertAdjacentElement('beforeend', h1);
 let h2 = document.createElement('h2');
