@@ -87,7 +87,7 @@ let b = document.querySelector('#print');
 b.addEventListener('click' , sendRequest);
 
 function sendRequest() {
-  let s = document.querySelector('#print');
+  let s = document.querySelector('salect#tenki');
   let idx = s.selectedIndex;
   let os = s.querySelectorAll('option');
   let o = os.item(idx);
