@@ -90,6 +90,10 @@ function sendRequest() {
   let s = document.querySelector('#print');
   let idx = s.selectedIndex;
   let os = s.querySelectorAll('option');
+  let o = os.item(idx);
+  let v = o.getAttribute('value')
+  let url = "https://www.nishita-lab.org/web-contents/jsons/openweather/" + v + ".json"
+
 
   axios.get(url)
     .then(showResult)   // 通信成功
@@ -126,4 +130,14 @@ function showResult(resp) {
   div.insertAdjacentElement('beforeend', li8);
   li9.textContent = "都市名:" + data.name;
   div.insertAdjacentElement('beforeend', li9);
+}
+
+// 通信エラーが発生した時の処理
+function showError(err) {
+  console.log(err);
+}
+
+// 通信の最後にいつも実行する処理
+function finish() {
+  console.log('Ajax 通信が終わりました');
 }
