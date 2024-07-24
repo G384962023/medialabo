@@ -112,22 +112,31 @@ function showResult(resp) {
   h2.textContent = "検索結果1件";
   div.insertAdjacentElement('beforeend', h2);
   li1.textContent = "緯度:" + data.coord.lon;
+  li1.style.color = '#0066CC';
   div.insertAdjacentElement('beforeend', li1);
   li2.textContent = "経度:" + data.coord.lat;
+  li2.style.color = '#0066CC';
   div.insertAdjacentElement('beforeend', li2);
   li3.textContent = "天気:" + data.weather[0].description;
+  li3.style.color = '#0066CC';
   div.insertAdjacentElement('beforeend', li3);
   li4.textContent = "最低気温:" + data.main.temp_min;
+  li4.style.color = '#0066CC';
   div.insertAdjacentElement('beforeend', li4);
   li5.textContent = "最高気温:" + data.main.temp_max;
+  li5.style.color = '#0066CC';
   div.insertAdjacentElement('beforeend', li5);
   li6.textContent = "湿度:" + data.main.humidity;
+  li6.style.color = '#0066CC';
   div.insertAdjacentElement('beforeend', li6);
   li7.textContent = "風速:" + data.wind.speed;
+  li7.style.color = '#0066CC';
   div.insertAdjacentElement('beforeend', li7);
   li8.textContent = "風向:" + data.wind.deg;
+  li8.s8tyle.color = '#0066CC';
   div.insertAdjacentElement('beforeend', li8);
   li9.textContent = "都市名:" + data.name;
+  li9.style.color = '#0066CC';
   div.insertAdjacentElement('beforeend', li9);
 }
 
