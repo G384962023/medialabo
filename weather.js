@@ -61,9 +61,6 @@ console.log(data.name);
 
 //print(data);
 
-function print(data){
-
-}
 
 
 let div = document.querySelector('div#result');
