@@ -87,10 +87,10 @@ b.addEventListener('click' , sendRequest);
 function sendRequest() {
   let s = document.querySelector('select#tenki');
   let idx = s.selectedIndex;
-  let os = s.querySelectorAll('option');
-  let o = os.item(idx);
-  let v = o.getAttribute('value')
-  let url = "https://www.nishita-lab.org/web-contents/jsons/openweather/" + v + ".json"
+  let o = s.querySelectorAll('option');
+  let R = o.item(idx);
+  let a = R.getAttribute('value')
+  let url = "https://www.nishita-lab.org/web-contents/jsons/openweather/" + a + ".json"
 
 
   axios.get(url)
@@ -109,6 +109,7 @@ function showResult(resp) {
   }
 
   h2.textContent = "検索結果1件";
+  h1.style.fontSize='20px';
   div.insertAdjacentElement('beforeend', h2);
   li1.textContent = "緯度:" + data.coord.lon;
   li1.style.color = '#0066CC';
