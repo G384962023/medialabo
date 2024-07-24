@@ -1,49 +1,5 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f8ff; /* 淡い青色 */
-    color: #333;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+h1 {
+    color: #6594e0;/*文字色*/
+    /*線の種類（点線）2px 線色*/
+    border-bottom: dashed 2px #6594e0;
   }
-  
-  label {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  select, button {
-    font-size: 1em;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s, box-shadow 0.3s;
-  }
-  
-  select:focus, button:focus {
-    outline: none;
-    background-color: #f0f8ff;
-  }
-  
-  button {
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
-  button:hover {
-    background-color: #e6f7ff;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  }
-  
-  #result {
-    margin-top: 20px;
-    font-size: 1.2em;
-    text-align: center;
-  }
-  
