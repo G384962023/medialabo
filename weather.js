@@ -69,7 +69,6 @@ h1.textContent = "世界の天気";
 h1.style.fontSize='40px';
 h1.style.color = 'blue';
 h1.style.backgroundColor = '#99FFFF';
-h1.style.borderBottom = 'double 10px # FFC778';
 div.insertAdjacentElement('beforeend', h1);
 let h2 = document.createElement('h2');
 let li1 = document.createElement('li');
