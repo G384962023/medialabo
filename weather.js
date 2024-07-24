@@ -109,7 +109,7 @@ function showResult(resp) {
   }
 
   h2.textContent = "検索結果1件";
-  h1.style.fontSize='20px';
+  h1.style.fontSize='30px';
   div.insertAdjacentElement('beforeend', h2);
   li1.textContent = "緯度:" + data.coord.lon;
   li1.style.color = '#0066CC';
